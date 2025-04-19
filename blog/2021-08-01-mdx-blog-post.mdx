@@ -1,24 +1,51 @@
 ---
-slug: mdx-blog-post
-title: MDX Blog Post
-authors: [slorber]
+slug: first-post
+title: 1rst Post
+authors: [guigui]
 tags: [docusaurus]
 ---
 
-Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).
-
-:::tip
-
-Use the power of React to create interactive blog posts.
-
-:::
+Test of first post using Docusaurus
 
 {/* truncate */}
 
-For example, use JSX to create an interactive button:
+## Welcome to my first post on IA-Pipeline project
 
-```js
-<button onClick={() => alert('button clicked!')}>Click me!</button>
-```
+The goal of this project (if I can work ion it more than a day) is to automatize the deployment process by giving the minimum info from the user
 
-<button onClick={() => alert('button clicked!')}>Click me!</button>
+The target objectives are :
+
+- Explore the usage of AI (generative and advanced agent )
+- Adaption of environment (based on training)
+- Easy to deploy and train
+- Make the deployment process evolve by himself without touching the code
+- Save time 🕰️
+
+
+### Tools
+
+As a generative AI, I will try to user **Le Chat** from Mistral AI. After few tests, it generates decent output for the first step
+So it should be ok for a starting solution / POC
+
+I will focus on GithubActions image build and deployment as it is simple and free
+So, I would like to see how the agent handle the change of actions and adapt to the "pipeline" of a GitHub organization
+
+For the infra part, I need to check the solutions, I think Heroku is good to start, but it is maybe too simple
+I will see later for this part
+
+
+### Next Target
+
+My first tasks (after publishing this) will be to :
+
+- Create a custom generative agent in Le Chat that create a generic GitHub Action (GA) from a simple prompt
+- Retrieve the content and save it in the matching project on GitHub
+- Processing the GA to build the project
+
+ETA: End of July
+
+
+Have fun !
+
+Kalystee
+
