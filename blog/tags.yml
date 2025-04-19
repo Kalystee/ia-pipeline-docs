@@ -1,7 +1,12 @@
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+ia-pipeline:
+  label: IA-Pipeline
+  permalink: /ia-pipeline
+  description: IA-Pipeline project
+
+logbook:
+  label: Logbook
+  permalink: /logbook
+  description: Regular update
 
 
